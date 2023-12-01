@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# 🌐 Tests E2E avec Cypress
 
-First, run the development server:
+## 📝 Description
+Ce projet est une démonstration de tests End-to-End (E2E) implémentés avec [Cypress](https://www.cypress.io/) sur une application web NextJS. <br/>
+Il fait partie de ma veille sur les tests, afin d'assurer la qualité et la fiabilité de mon code.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 🚀 Démarrage rapide
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Pour lancer le projet, suivez ces étapes :
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+1. **Clonez le dépôt :**
+   ```bash
+   git clone https://github.com/AdrienPoua/Cypress
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **Installez les dépendances :**
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. **Lancez les tests Cypress :**
+   ```bash
+   npx cypress open
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 Tests
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Les tests Cypress couvrent les aspects suivants de l'application :
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Navigation dans l'application
+- Interface utilisateur
 
-## Deploy on Vercel
+## 🛠️ Construit avec
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- [NextJS]([https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://nextjs.org))
+- [Cypress](https://www.cypress.io/)
+- [MUI](https://nextjs.org)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📚 Ressources
+
+Ce projet a été réalisé en suivant le tutoriel ["Testing JavaScript with Cypress – Full Course"](https://www.youtube.com/watch?v=u8vMu7viCm8) sur YouTube. Un grand merci à [@coderyan](https://www.youtube.com/channel/UCOdnxscz3oI8cAtitQ7Lkdw) pour cette excellente ressource éducative.
+
+---
