@@ -10,9 +10,7 @@
 //
 //
 // -- This is a parent command --
-Cypress.Commands.add('dataTest', (selector) => { 
-    return cy.get(`[data-test=${selector}]`)
- })
+// Cypress.Commands.add('login', (email, password) => { ... })
 //
 //
 // -- This is a child command --
@@ -25,3 +23,8 @@ Cypress.Commands.add('dataTest', (selector) => {
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+
+Cypress.Commands.add('getDataTest', (dataTestSelector) => {
+    return cy.get(`[data-test="${dataTestSelector}"]`)
+})
